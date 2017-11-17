@@ -2,7 +2,9 @@
 
 > KeyKode is tiny project which makes use of built-in Javascript libraries and in addition, Clipboard.JS to encode a URL using Base64 and creates a shareable link which is decoded clientside. 
 
-View the live [Demo](https://intern0t.github.io/keykode/) here.
+### View the live Demo
+1. [via. Github Pages](https://intern0t.github.io/keykode/)
+2. [via. Custom Domain](http://keykode.ml)
 
 #### Pros
 1. All private
