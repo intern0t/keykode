@@ -393,11 +393,19 @@ hr {
   display: table;
   clear: both; }
 
-.decodedURL{
+a.decodedURL{
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   text-align: center;
+  font-size: 17px;
+  letter-spacing: .5px;
+}
+
+a.baseURL{
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: .2px;
 }
 
 /* Media Queries
