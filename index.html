@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta charset="utf-8">
+	<title>URL Encoder</title>
+	<meta name="description" content="URL Encoder with Passthrough.">
+	<meta name="author" content="Prashant Shrestha">
+	<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+
+	<!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+	<!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/skeleton.css">
+	<link rel="stylesheet" href="css/icomoon.css">
+
+	<!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+	<!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<div class="container">
+		<!--  -->
+		<div class="row">
+			<h4>URL Encoder</h4>
+		</div>
+		<!--  -->
+		<div class="row">
+			<p>URL Encoder is a tiny project which makes use of Javascript to encode a URL using Base64 Encoder.</p>
+		</div>
+		<!-- Link Generation form -->
+		<div class="row">
+			<form class="encodeForm">
+				<label for="toEncode">URL to Encode</label>
+				<textarea class="u-full-width" placeholder="Paste your URL that you wish to encode." id="toEncode"></textarea>
+				<a class="button button-primary encodeURL" type="submit">
+					<span class="icon-quill"></span>&nbsp;Encode</a>
+				<a class="button button-primary copytoClipboard" data-clipboard-target="#toEncode">
+					<span class="icon-clipboard"></span>&nbsp;Copy</a>
+			</form>
+		</div>
+		<!-- Decode Container -->
+		<div class="row">
+			<a href="#" class="decodedURL"></a>
+		</div>
+	</div>
+
+	<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/clipboard.min.js"></script>
+</body>
+
+</html>
