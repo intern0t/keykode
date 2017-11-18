@@ -408,6 +408,22 @@ a.baseURL{
   letter-spacing: .2px;
 }
 
+.protectnetneutrality{
+  width: 100%;
+  height: auto;
+  background: #33C3F0;
+  text-align: center;
+  color: #FFF;
+  vertical-align: middle;
+  padding: 10px 0;
+}
+.protectnetneutrality a{
+  color: #211F39;
+}
+.protectnetneutrality a:hover{
+  color: #171629;
+}
+
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
