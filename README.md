@@ -7,14 +7,18 @@
 2. [via. Custom Domain](http://keykode.ml)
 
 #### Pros
-1. All private
-2. No server required
-3. No metadata stored
+1. All private.
+2. No server required.
+3. No metadata stored.
 4. All client-sided.
 5. Uses hashbang to handle URL parameter (encoded Base64).
+6. Blocks Search Engine indexing.
 
 #### Cons
 * It uses Base64. 
 * Might not work for ultra-long URL.
+
+##### Plans
+1. Add Social share.
 
 Feel free to create a copy, update, improve and share, if you want.
