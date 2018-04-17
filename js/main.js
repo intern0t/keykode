@@ -35,6 +35,21 @@ $(document).ready(function()
 		return false
 		}
 	);
+
+    $("a.decodeBase64").on("click", function(e){
+        e.preventDefault();
+        var userInput = $("#toEncode");
+        
+        if(userInput.val().length > 0){
+            var decodedBase64 = atob(userInput.val());
+            userInput.val(decodedBase64);
+        }else{
+            alert("Please enter a Base64 encoded string.");
+        }
+
+        return false;
+    });
+
 	var getURLParameters=function()
 	{
 		var url=window.location.href;
