@@ -4,7 +4,7 @@
 
 ### View the live Demo
 1. [via. Github Pages](https://intern0t.github.io/keykode/)
-2. [via. Custom Domain](http://keykode.ml)
+2. [via. Custom Domain](https://keykode.prashant.me/)
 
 #### Pros
 1. All private.
